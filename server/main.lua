@@ -1,7 +1,7 @@
 local thisResource = GetCurrentResourceName()
 local DiscordWebHookSettings = {
-    url = GetResourceMetadata(thisResource, 'discordWebHookUrl', 0),
-    image = GetResourceMetadata(thisResource, 'discordWebHookImage', 0)
+    url = Config.discordWebHookUrl,
+    image = Config.discordWebHookImage
 }
 
 RegisterServerEvent('commandLoggerDiscord:commandWasExecuted')
