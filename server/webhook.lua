@@ -2,7 +2,7 @@ function Webhook(webHookUrl, webHookImage)
     local self = {}
 
     self.webHookUrl = webHookUrl
-    self.webHookImage = webHookImage or 'https://pbs.twimg.com/profile_images/1298948209876893698/pJHwyN9__400x400.jpg'
+    self.webHookImage = webHookImage
 
     if not self.webHookUrl then 
         error('discordWebHookUrl was expected but got nil')
