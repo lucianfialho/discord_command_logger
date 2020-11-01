@@ -1,5 +1,13 @@
 # discord_command_logger
 
+## Resumo
+Esse script ao ser instalado irá criar um logger de todos os comando executados no seu sevidor e jogar todas essa informações para um canal seu do discord :)
+
+![image](https://media.discordapp.net/attachments/772473741535346698/772542456663113728/unknown.png)
+
+You can also read this README in [Portuguese](https://github.com/lucianfialhobp/discord_command_logger/blob/main/README.pt.md).
+
+
 ## Criando webhook no discord
 Você pode ver como criar um webhook para o seu canal do discord [aqui](https://support.discord.com/hc/pt-br/articles/228383668-Usando-Webhooks)
 

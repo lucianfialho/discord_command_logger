@@ -1,5 +1,10 @@
 # discord_command_logger
 
+## Overview
+This script is a logger for all commands executed from your server to your Discord :)
+
+![image](https://media.discordapp.net/attachments/772473741535346698/772542456663113728/unknown.png)
+
 ## Creating Discord Webhook
 
 How create Discord Webook [here](https://support.discord.com/hc/pt-br/articles/228383668-Usando-Webhooks)
