@@ -3,7 +3,7 @@
 ## Overview
 This script is a logger for all commands executed from your server to your Discord :)
 
-![image](https://media.discordapp.net/attachments/772473741535346698/772542456663113728/unknown.png)
+![image](https://cdn.discordapp.com/attachments/752611239988822027/772572872035008552/unknown.png)
 
 ## Creating Discord Webhook
 
