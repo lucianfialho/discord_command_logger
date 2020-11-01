@@ -12,7 +12,5 @@ server_scripts {
     'server/main.lua'
 }
 
-client_script 'client/main.lua'
-
 discordWebHookUrl ''
 discordWebHookImage ''
