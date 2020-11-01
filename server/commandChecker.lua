@@ -17,5 +17,4 @@ function CommandChecker()
     end
 
     return self
-
 end
