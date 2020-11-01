@@ -26,11 +26,11 @@ git clone https://github.com/lucianfialhobp/discord_command_logger.git discord_c
 ensure discord_command_logger
 ```
 
-- Set discord settings in fxmanifest.lua 
+- Set discord settings in config.lua 
 
 ```
-discordWebHookUrl 'YOUR_WEBHOOK_YOU_SET_HERE'
-discordWebHookImage 'YOUR_WEBHOOK_IMAGE_YOU_SET_HERE'
+Config.discordWebHookUrl = 'YOUR_WEBHOOK_YOU_SET_HERE'
+Config.discordWebHookImage = 'YOUR_WEBHOOK_IMAGE_YOU_SET_HERE'
 ```
 
 - Trigger `commandLoggerDiscord:commandWasExecuted` in resources/chat/cl_chat.lua:112 like this
