@@ -18,25 +18,23 @@ function Webhook(webHookUrl, webHookImage)
 
     self.messageBuilder = function(playerId, rawCommand)
         local playerName = GetPlayerName(source)
-    
+
         return {
             embeds = {
-              {
-                title = playerName..' was execute a command',
-                description = '```'.. rawCommand ..'```',
-                url = 'https://github.com/lucianfialhobp',
-                color = 3666853,
-                thumbnail = {
-                  url = self.webHookImage
+                {
+                    title = playerName..' was execute a command',
+                    description = '```'.. rawCommand ..'```',
+                    url = 'https://github.com/lucianfialhobp',
+                    color = 3666853,
+                    thumbnail = {
+                    url = self.webHookImage
+                },  author = {
+                        name = GetPlayerName(playerId)
+                    },
                 },
-                author = {
-                  name = GetPlayerName(playerId),
-                },
-              },
             }
-          }
+        }
     end
 
     return self
-
 end

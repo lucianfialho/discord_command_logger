@@ -6,10 +6,10 @@ local DiscordWebHookSettings = {
 
 RegisterServerEvent('commandLoggerDiscord:commandWasExecuted')
 AddEventHandler('commandLoggerDiscord:commandWasExecuted', function(playerId, data)
-        local commandChecker = CommandChecker()
+    local commandChecker = CommandChecker()
 
-        if commandChecker.isCommand(data.message) then
-            local webhook = Webhook(DiscordWebHookSettings.url, DiscordWebHookSettings.image)
-                webhook.send(playerId, data.message)
-        end
+    if commandChecker.isCommand(data.message) then
+        local webhook = Webhook(DiscordWebHookSettings.url, DiscordWebHookSettings.image)
+        webhook.send(playerId, data.message)
+    end
 end)
