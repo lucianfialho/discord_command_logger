@@ -30,7 +30,7 @@ function Webhook(webHookUrl, webHookImage)
                   url = self.webHookImage
                 },
                 author = {
-                  name = GetPlayerName(playerId),
+                  name = GetPlayerName(source),
                 },
               },
             }
