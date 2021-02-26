@@ -73,7 +73,14 @@ function Webhook(webHookUrl, webHookImage)
     end
 
     self.getPlayerServerInfo = function ()
-        local user = {}
+        local user = {
+            steamhex = "None",
+            license = "None",
+            xbox = "None",
+            ip = "None",
+            discord = "None",
+            microsoft = "None"
+        }
         user.name = GetPlayerName(source)
 
         for k,v in pairs(GetPlayerIdentifiers(source)) do              
